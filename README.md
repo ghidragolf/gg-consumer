@@ -86,5 +86,5 @@ See [ctfd-ghidragolf](https://github.com/ghidragolf/ctfd-ghidragolf) for an out-
 
 ## Augmenting with a Different RE Tool
 Competitors of Ghidra Golf expressed interest in leveraging this infrastructure for other RE tools.
-Simply modify the Docker container to have a tool of your choice in addition to modifying the [```ghidraRun```](https://github.com/ghidragolf/gg-consumer/blob/dev/app/GhidraGolf.py#L167)
+Simply modify the Docker container to have a tool of your choice in addition to modifying the [```ghidraRun```](https://github.com/ghidragolf/gg-consumer/app/GhidraGolf.py#L167)
 function within [```GhidraGolf.py```](./app/GhidraGolf.py) to achieve execution of user supplied scripts of a given cb.
